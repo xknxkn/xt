@@ -78,6 +78,8 @@ void copyright(void)
 void usage(void)
 {
   printf("Usage: %s -p port [-b baudrate] [-s stopbits] [--version]", argv0);
+
+  printf("xkn add his step here\n");
   quit(1);
 }
 
