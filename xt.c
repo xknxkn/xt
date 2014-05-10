@@ -133,6 +133,8 @@ int main
     if (!strcmp(argv[i], "--version"))
       copyright();
 
+  printf("xknxkn add his own step after the copyright\n");
+
   done = 0;
   while (!done)
   {
