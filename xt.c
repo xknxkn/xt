@@ -123,7 +123,7 @@ int main
   tcgetattr(0, &oldStdinTio);
 
   // check argument count
-  printf("hellow from xknxknqq \n"); 
+  printf("hellow from xknxknqq  add test patch \n"); 
 
   if (argc < 2)
     usage();
