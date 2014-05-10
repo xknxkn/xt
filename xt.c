@@ -123,11 +123,14 @@ int main
   tcgetattr(0, &oldStdinTio);
 
   // check argument count
-  
+  printf("hellow from xknxknqq \n"); 
+
   if (argc < 2)
     usage();
 
   // parse command line
+
+
   
   for (i; i < argc; i++)
     if (!strcmp(argv[i], "--version"))
