@@ -123,7 +123,7 @@ int main
   tcgetattr(0, &oldStdinTio);
 
   // check argument count
-  printf("hellow from xknxknqq  i fix it as test reque\n"); 
+  printf("hellow from xknxknqq  it is a develop requst \n"); 
 
   if (argc < 2)
     usage();
